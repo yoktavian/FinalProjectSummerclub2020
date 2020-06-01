@@ -6,11 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import com.vintech.finalprojectsummerclub.R
+import com.vintech.finalprojectsummerclub.data.Note
 
 /**
  * Created by YudaOktavian on 14-May-2020
  */
-class CustomAdapter(private val notes: ArrayList<*>) : BaseAdapter() {
+class CustomAdapter(private val notes: ArrayList<Note>) : BaseAdapter() {
 
     @SuppressLint("ViewHolder")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
